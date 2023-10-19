@@ -1,19 +1,37 @@
-import Image from "next/image";
-
+/*
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+*/
 export default function Login() {
     return (
       <>
+        {/*
+          This example requires updating your template:
+  
+          ```
+          <html class="h-full bg-white">
+          <body class="h-full">
+          ```
+        */}
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-            <Image
-              className="mx-auto w-auto"
-              src="/Slagerij-logo.png"
+            <img
+              className="mx-auto h-10 w-auto"
+              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               alt="Your Company"
-              width={40}
-              height={40}
             />
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-              Log in op je account
+              Sign in to your account
             </h2>
           </div>
   
