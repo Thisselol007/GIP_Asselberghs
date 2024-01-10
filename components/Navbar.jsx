@@ -25,20 +25,20 @@ export default function Navbar({
               </li>
 
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="/hire">
                   Huren
                 </a>
               </li>
 
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="/contact">
                   Contact
                 </a>
               </li>
 
               <li>
                 <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
-
+                  
                 </a>
               </li>
 
