@@ -12,6 +12,15 @@ export const schema = {
           type: "string",
         },
         {
+          title: "Slug",
+          name: "slug",
+          type: "slug",
+          options: {
+            source: "name",
+            maxLength: 96,
+          },
+        },
+        {
           title: "Description",
           name: "description",
           type: "text",

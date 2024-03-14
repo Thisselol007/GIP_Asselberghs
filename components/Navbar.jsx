@@ -9,7 +9,7 @@ export default function Navbar({
       <div
         className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
       >
-        <a className="block text-teal-600" href="/">
+        <a className="block text-red-600" href="/">
           <span className="sr-only">Home</span>
           <img src="/Slagerij-logo.png" alt="Slagerij" />
         </a>
@@ -37,8 +37,8 @@ export default function Navbar({
               </li>
 
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
-                  
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="/products">
+                  Onze producten
                 </a>
               </li>
 
@@ -101,3 +101,4 @@ export default function Navbar({
     </header>
   )
 }
+
